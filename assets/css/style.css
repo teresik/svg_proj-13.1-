@@ -23,7 +23,10 @@
 	stroke-width: var(--stroke-width);
 }
 
-svg:hover {
+.svg:hover .rect-r,
+.svg:hover .rect-b,
+.svg:hover .circle,
+.svg:hover .ellipse {
 	cursor: pointer;
 	fill: gold;
 	stroke: lawngreen;
