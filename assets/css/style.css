@@ -1,0 +1,31 @@
+/* Main compiled CSS */
+:root {
+	--stroke-width: 5px;
+}
+.rect-r {
+	fill: red;
+	stroke: cyan;
+	stroke-width: var(--stroke-width);
+}
+.rect-b {
+	fill: blue;
+	stroke: cyan;
+	stroke-width: var(--stroke-width);
+}
+.circle {
+	fill: green;
+	stroke: cyan;
+	stroke-width: var(--stroke-width);
+}
+.ellipse {
+	fill: purple;
+	stroke: cyan;
+	stroke-width: var(--stroke-width);
+}
+
+svg:hover {
+	cursor: pointer;
+	fill: gold;
+	stroke: lawngreen;
+	transition: 1s;
+}
